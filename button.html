@@ -1,0 +1,92 @@
+<html>
+ <head>
+  <style>
+ @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+   {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   }
+   body{
+    display: flex;
+    justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #27282c;
+   }
+   .light-button{
+    position: relative;
+    background: #444;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition:0.5s;
+   }
+   .light-button:hover{
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px ;
+   }
+   .light-button::before{
+    content: '';
+    position:absolute;
+    inset:2px;
+    background:#27282c;
+   }
+   
+   .light-button span{
+    position:relative;
+    z-index: 1;
+   }
+   .light-button i{
+    position:absolute;
+    inset: 0;
+    display: block;
+   }
+   
+   .light-button i::before{
+    content: '';
+    position: absolute;
+    bottom: -3.5px;
+    left: 80%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 5px;
+    border:2px solid var(--clr);
+    background: #27282c;
+    transition: 0.5s;
+   }
+   .light-button:hover i::before{
+    width:20px;
+    left:20%;
+    box-shadow: 0 0px 20px red;
+   }
+   .light-button i::after{
+    content: '';
+    position: absolute;
+    top: -3.5px;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 5px;
+    border:2px solid var(--clr);
+    background: #27282c;
+    transition: 0.5s;
+   }
+   .light-button:hover i::after{
+    width:20px;
+    left:80%;
+    box-shadow: 0 0px 20px red;
+   }
+  </style>
+ </head>
+ <body>
+  <a class="light-button" href="#" style="--clr:#1e9bff"><span>send</span>
+  <i></i>
+  </a>
+ </body>
+</html>

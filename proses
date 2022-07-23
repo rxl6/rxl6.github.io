@@ -1,0 +1,40 @@
+
+                git config --global user.email "akhmadkhoirulmuttakin@gmail.com"
+git config --global user.name "rxl6"
+printf "add proses \n"
+count=0
+total=14
+pstr="[===================================]"
+while [ $count -lt $total ]; do
+  sleep 0.01 # this is work                                                                                             
+  count=$(( $count + 1 ))
+  pd=$(( $count * 40 / $total ))
+  printf "\r%3d.%1d%% %.${pd}s " $(( $count *100 / $total )) $(( ($count * 100 / $total) % 10 )) $pstr
+done
+printf "\n"
+read -p "Masukkan y jika lanjut dan n jika berhenti : " nilaiA;
+nilaiB=1
+if [ "$nilaiA" = "y" ]; then
+printf "add proses \n"
+count=0
+total=14
+pstr="[===================================]"
+while [ $count -lt $total ]; do
+  sleep 0.01 # this is work                                                                                             
+  count=$(( $count + 1 ))
+  pd=$(( $count * 40 / $total ))
+  printf "\r%3d.%1d%% %.${pd}s " $(( $count *100 / $total )) $(( ($count * 100 / $total) % 10 )) $pstr
+done
+printf "\n"
+git init
+git add *
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rxl6/rxl6.github.io.git
+git pull --rebase origin main
+git rebase --continue
+git pull origin main
+git push -u origin main
+else
+printf "batal \n"
+fi

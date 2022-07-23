@@ -1,0 +1,114 @@
+<html>
+ <head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+   @import url('font/ubuntu.all.css');
+   @import url('profile-all.css');
+   @import url('comment.all.css')
+</style>
+  <script src="sweetalert2.min.js"></script>
+  <script src="vendor/jquery-3.5.0.js"></script>
+  <script src="vendor/datakomen.js"></script>
+
+ </head>
+ <body>
+  <div class="card">
+<div class="imgBx">
+ <img src="profile.jpg">
+ <i></i>
+</div>
+<div class="contents">
+ <div class="details">
+  <h2>nama kamu<br>
+  <span>gatau siapa aku</span>
+  </h2>
+  <div class="data">
+
+  <a class="light-button" href="#" style="--clr:#1e9bff;padding:5px -10px"><span>ini aku</span>
+  <i></i>
+  </a>
+  <a class="light-button" onclick="pengembangan()" style="--clr:#1e9bff;padding:5px -10px"><span>jangan klik</span>
+  <i></i>
+  </a>
+  </div>
+  <div class="actionBtn">
+   <button onclick="masukanSosial();">My Social</button>
+   <button class="komentar" onclick="komen();">komentar
+   </button>
+   
+  </div>
+ </div>
+</div>
+  </div>
+  <div id="socials" class="social">
+  </div>
+  <div id="komen" class="komen">
+     <div class="box">
+      <h3>
+       Komentar Tardahulu
+      </h3>
+     <div id="isikomen"></div>
+     </div>
+  <div class="kolom_komentar">
+   <form class="form-komen" id="formkomen" method="post" action="">
+    <input class="input" name="nama" id="name" type="text" placeholder="masukan nama"><br>
+    <input type="text" name="isikomen" class="input" placeholder="ketik komentar">
+    <input type="submit" id="kirim" style="height:20px" class="send" value="send">
+    <br>
+    <input type="button" style="height:20px;position:absolute;top:50px;right:5px;color:grey;background:#fff" class="send" onclick="hapusKomen()" value="back">
+   </form>
+  </div>
+  </div>
+
+<script>
+var data = JSON.parse(au);
+data.forEach(function(element){
+document.getElementById("isikomen").innerHTML +='<div class="list"><div class="content"><h2 class="rank"><small>on → </small>30 juni 2022 | 11:59 WIB</h2><h4>'+ element.nama +'</h4><p>'+ element.isi +'</p></div></div>';
+});
+</script>
+<script src="sosial.js"></script>
+		 <script>
+  var topSocial = document.getElementById('socials').style;
+var topKomen = document.getElementById('komen').style;
+   function masukanSosial(){
+    topSocial.left='5%';
+    topSocial.opacity='1';
+   }
+		 function hapusSocial(){
+topSocial.left='-90%';
+topSocial.opacity='1';
+		 }
+  
+   function komen(){
+    topKomen.top='10%';
+    topKomen.opacity='1';
+   }
+		 function hapusKomen(){
+topKomen.top='-510px';
+topKomen.opacity='0.1';
+		 }
+		function pengembangan(){
+		 Swal.fire({title:'error',text:'fitur dalam pengembangan',icon:'error'})
+		}
+</script>
+<script type="text/javascript">
+$(document).ready(function() { 
+      $("#formkomen").submit(function(e) {
+          e.preventDefault();
+          $.ajax({
+              url: 'vendor/komentar.php',
+              type: 'post',
+              data: $(this).serialize(),             
+              success: function(data) {               
+              document.getElementById("formkomen").reset();
+              $('#status').html(data);
+              alert('berhasil menambahkan komentar');
+              location.reload()              
+              }
+          });
+      });
+  })
+	</script>
+<script src="vendor/jquery-3.5.0.js"></script>
+ </body>
+</html>
