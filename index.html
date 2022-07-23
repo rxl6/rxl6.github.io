@@ -8,7 +8,7 @@
 </style>
   <script src="sweetalert2.min.js"></script>
   <script src="vendor/jquery-3.5.0.js"></script>
-  <script src="vendor/datakomen.js"></script>
+  <script src="https://datakomentar.rxl6.repl.co/datakomen.js"></script>
 
  </head>
  <body>
@@ -96,7 +96,7 @@ $(document).ready(function() {
       $("#formkomen").submit(function(e) {
           e.preventDefault();
           $.ajax({
-              url: 'vendor/komentar.php',
+              url: 'https://datakomentar.rxl6.repl.co/komentar.php',
               type: 'post',
               data: $(this).serialize(),             
               success: function(data) {               
