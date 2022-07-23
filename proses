@@ -26,7 +26,6 @@ while [ $count -lt $total ]; do
   printf "\r%3d.%1d%% %.${pd}s " $(( $count *100 / $total )) $(( ($count * 100 / $total) % 10 )) $pstr
 done
 printf "\n"
-git init
 git add *
 git commit -m "first commit"
 git branch -M main
