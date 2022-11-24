@@ -1,0 +1,26 @@
+{{ $related := .Site.RegularPages.Related . | first 3 -}}
+{{ with $related -}}
+
+ {{ end -}}
+<article class='ntry'><div class='pThmb'><a class='thmb' href='{{ .Permalink }}'>
+        {{ partial "cover.html" . }}<noscript> </noscript></a></div><div class='pCntn'><div class='pHdr pSml'><div class='pLbls' data-text='in'>
+
+        {{ if .Params.tags }}
+          <span class="post-tags">
+            {{ range .Params.tags }}
+            #<a rel='tag' href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+              {{- . -}}
+            </a>&nbsp;
+            {{ end }}
+          </span>
+        {{ end }}
+
+</div></div><h2 class='pTtl aTtl sml'><a data-text='{{ .Title }}' href='{{ .Permalink }}' rel='bookmark'>{{ .Title }}</a></h2><div class='pSnpt'>{{ if .Params.showFullContent }}
+            {{ .Content }}
+          {{ else if .Description }}
+            {{ .Description | markdownify }}
+          {{ else }}
+            {{ .Summary | markdownify }}
+          {{ end }}&#8230;</div><div class='pInf pSml'><time class='aTtmp pTtmp pbl' data-text='{{ .Date.Format "02 January 2006" }}' datetime='{{ .Date.Format "2006-01-02" }}' title='Published: {{ .Date.Format "2006-01-02" }} ::'></time><a aria-label='Read more »' class='pJmp' data-text='Terus membaca' href='{{ .Permalink }}'></a></div></div></article>
+  
+

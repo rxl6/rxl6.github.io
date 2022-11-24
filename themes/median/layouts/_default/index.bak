@@ -1,0 +1,86 @@
+
+
+
+{{ define "main" }}
+
+
+<div class='widget Blog' data-version='2' id='Blog1'>
+<div class='blogTtl hm'>
+   <h3 class='title'>Postingan Terbaru Saya</h3>
+</div>
+
+<div class='blogPts mty'>
+
+    {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
+    {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
+
+    {{ $PageContext := . }}
+    {{ if .IsHome }}
+      {{ $PageContext = .Site }}
+    {{ end }}
+    {{ $paginator := .Paginate (where $PageContext.RegularPages "Type" $contentTypeName) }}
+
+    {{ range $paginator.Pages }}
+   <article class='ntry'>
+      <div class='pThmb'>
+         <a class='' href='{{ .Permalink }}'>
+            
+
+{{- $cover := false -}}
+{{- $autoCover := default $.Site.Params.autoCover false }}
+
+{{- if index .Params "cover" -}}
+  {{- if .Resources.GetMatch .Params.Cover }}
+    {{- $cover = (.Resources.GetMatch .Params.Cover).RelPermalink -}}
+  {{- else -}}
+    {{- $cover = absURL .Params.Cover -}}
+  {{- end -}}
+{{- else if $.Site.Params.AutoCover -}}
+  {{- if (not .Params.Cover) -}}
+    {{- if .Resources.GetMatch "cover.*" -}}
+      {{- $cover = (.Resources.GetMatch "cover.*").RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{if $cover -}}
+  <!-- Cover image found -->
+  <img border="0" data-original-height="461" data-original-width="768" height="192" src="{{ $cover }}"
+    alt="{{ .Title | plainify | default " " }}"
+    title="{{ .Params.CoverCredit |plainify|default "Cover Image" }}" width="320" />
+{{- end }}
+
+
+         </a>
+      </div>
+      <div class='pCntn'>
+         <div class='pHdr pSml'>
+            <div class='pLbls' data-text='in'>
+               {{ if .Params.tags }}
+               <span class="post-tags">
+               {{ range .Params.tags }}
+               #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+               {{- . -}}
+               </a>&nbsp;
+               {{ end }}
+               </span>
+               {{ end }}
+            </div>
+         </div>
+         <h2 class='pTtl aTtl sml'><a data-text='{{ .Title | markdownify }}' href="{{ .Permalink }}" rel='bookmark'>{{ .Title | markdownify }}</a></h2>
+         <div class='pSnpt'>          {{ if .Params.showFullContent }}
+            {{ .Content }}
+            {{ else if .Description }}
+            {{ .Description | markdownify }}
+            {{ else }}
+            {{ .Summary | markdownify }}
+            {{ end }}&#8230;
+         </div>
+         <div class='pInf pSml'><time class='aTtmp pTtmp pbl' data-text='{{ .Date.Format "02 January 2006" }}' datetime='{{ .Date.Format "2006-01-02" }}' title='Published: {{ .Date.Format "2006-01-02" }} ::'></time><a aria-label='Read more »' class='pJmp' data-text='Terus membaca' href='{{ .Permalink }}'></a></div>
+      </div>
+   </article>
+<br>
+
+    {{ end }}
+</div>
+{{ end }}

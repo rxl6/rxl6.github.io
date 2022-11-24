@@ -1,0 +1,13 @@
+
+                           <div class='widget Blog' data-version='2' id='Blog1'>
+                              <div class='blogTtl hm'>
+                                 <h3 class='title'>Postingan Terbaru Saya</h3>
+                              </div>
+                              <div class='blogPts mty'>
+
+                      {{ partial "related.html" . }}                       </div>
+
+  <div class="content">
+    {{ block "main" . }}
+     {{ end }}
+  </div>

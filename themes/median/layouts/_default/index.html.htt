@@ -1,0 +1,4 @@
+{{ define "main" }}
+        {{- partial "posting_terbaru.html" . -}}
+
+{{ end }}

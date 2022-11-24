@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    {{- partial "style.html" . -}}
+<body class='MN-2 mobS hdMn bD onItm onPs' id='mainCont'>
+<!--[ Show only one grid column in Mobile ]-->
+<!--[ Enable tag below to change Mobile Menu style, try 'MN-2' or 'MN-3' ]-->
+<!--[ Enable tag below to minimize Navigation Menu in desktop ]-->
+<!--[ Change basic layout style in desktop, try 'LS-2' or 'LS-3' ]-->
+<!--<b:class name='LS-2'/>-->
+<script>/*<![CDATA[*/ (localStorage.getItem('mode')) === 'darkmode' ? document.querySelector('#mainCont').classList.add('drK') : document.querySelector('#mainCont').classList.remove('drK') /*]]>*/</script>
+<!--[ Active function ]-->
+<input class='prfI hidden' id='offPrf' type='checkbox'/>
+<input class='navI hidden' id='offNav' type='checkbox'/>
+<div class='mainWrp'>
+        {{- partial "header.html" . -}}
+<div class='mainIn'>
+
+        {{- partial "menu_side.html" . -}}
+        <div id="content">
+
+        
+        <div class='blogM'>
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "mobile_menu.html" . -}}
+        {{- partial "footer.html" . -}}
+    </body>
+</html>
