@@ -1,46 +1,112 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>/tags/game-psp/</loc>
-    <lastmod>2022-11-25T12:01:33+00:00</lastmod>
-  </url><url>
-    <loc>/posts/game-psp-bahasa-indonesia-terbik/</loc>
-    <lastmod>2022-11-25T12:01:33+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2022-11-25T12:01:33+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2022-11-25T12:01:33+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-11-25T12:01:33+00:00</lastmod>
-  </url><url>
-    <loc>/posts/coba/</loc>
-    <lastmod>2022-11-23T00:37:47+00:00</lastmod>
-  </url><url>
-    <loc>/tags/data-mlbb-lite/</loc>
-    <lastmod>2022-11-23T00:37:47+00:00</lastmod>
-  </url><url>
-    <loc>/tags/game-gba/</loc>
-    <lastmod>2022-11-23T00:37:47+00:00</lastmod>
-  </url><url>
-    <loc>/tags/game-ppsspp/</loc>
-    <lastmod>2022-11-23T00:37:47+00:00</lastmod>
-  </url><url>
-    <loc>/tags/mlbb/</loc>
-    <lastmod>2022-11-23T00:37:47+00:00</lastmod>
-  </url><url>
-    <loc>/posts/data-tambahan-skin-mlbb/</loc>
-    <lastmod>2022-11-22T00:37:47+00:00</lastmod>
-  </url><url>
-    <loc>/posts/cover/</loc>
-  </url><url>
-    <loc>/posts/ec/</loc>
-  </url><url>
-    <loc>/posts/rxl/</loc>
-  </url><url>
-    <loc>/posts/rxl6/</loc>
-  </url>
-</urlset>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RXL6</title>
+    <link>https://rxl6.github.io/sitemap.xml</link>
+    <description>Recent content on RXL6</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <item>
+      <title>coba</title>
+      <link>https://rxl6.github.io/about/</link>
+      <pubDate>Sat, 03 Dec 2022 00:37:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/about/</guid>
+      <description>About</description>
+      <content>
+About 
+
+</content>
+    </item>
+    
+    <item>
+      <title>data mlbb lite</title>
+      <link>https://rxl6.github.io/tags/data-mlbb-lite/</link>
+      <pubDate>Tue, 01 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/tags/data-mlbb-lite/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>data tambahan skin mlbb</title>
+      <link>https://rxl6.github.io/tags/data-tambahan-skin-mlbb/</link>
+      <pubDate>Tue, 01 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/tags/data-tambahan-skin-mlbb/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Data Tambahan Skin Zilong</title>
+      <link>https://rxl6.github.io/posts/data-tambahan-skin-zilong/</link>
+      <pubDate>Tue, 01 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/posts/data-tambahan-skin-zilong/</guid>
+      <description>Hai sobat gamers, di artikel kali ini saya akan membagikan data tambahan skin MLBB lite , yaitu skin Zilong. sobat gamers bisa memilih versi hd ataupun versi lite.
+sekedar informasi, untuk yang versi hd file nya lengkap dengan animasi nya, sedangkan untuk versi lite hanya skin saja tidak ada animasi saat pemilihan Hero (khusunya untuk bermain clasik) jadi akan terasa lebih ringan.
+Link Download Versi lite : Download
+Versi HD : belum ditambahkan</description>
+      <content>&lt;p&gt;Hai sobat gamers, di artikel kali ini saya akan membagikan data tambahan skin MLBB lite , yaitu skin Zilong. sobat gamers bisa memilih versi hd ataupun versi lite.&lt;/p&gt;
+&lt;p&gt;sekedar informasi, untuk yang versi hd file nya lengkap dengan animasi nya, sedangkan untuk versi lite hanya skin saja tidak ada animasi saat pemilihan Hero (khusunya untuk bermain clasik) jadi akan terasa lebih ringan.&lt;/p&gt;
+&lt;h4&gt; Link Download &lt;/h4&gt;
+&lt;p&gt;&lt;b&gt; Versi lite :&lt;/b&gt; &lt;a href=&#34;https://safefileku.com/download/uiGCW3aY9pcu4YE&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; Versi HD :&lt;/b&gt; &lt;a&gt;belum ditambahkan&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Kelebihan Hero Zilong&lt;/h4&gt;
+&lt;p&gt;Memiliki kemampuan untuk menghancurkan turret lawan dengan sangat cepat&lt;/p&gt;
+&lt;p&gt;Memiliki cooldown skill yang cukup singkat.&lt;/p&gt;
+&lt;p&gt;Hero yang mudah untuk menyelamatkan diri karena dengan skill ultimate-nya Zilong sangat susah untuk dikejar.&lt;/p&gt;
+&lt;p&gt;Mempunyai attack speed yang tinggi.&lt;/p&gt;
+&lt;p&gt;Bisa dengan mudah melakukan gank.&lt;/p&gt;
+&lt;p&gt;Merupakan Hero yang kuat untuk melakukan duel satu vs satu karena Zilong mempunyai skill yang bisa memberikan efek stun terhadap lawan.&lt;/p&gt;
+&lt;h4&gt;Kelemahan Hero Zilong&lt;/h4&gt;
+&lt;p&gt;Zilong mempunyai HP yang sangat sedikit, dia bisa dengan mudah menjadi sasaran empuk bagi Hero assassin lawan.&lt;/p&gt;
+&lt;p&gt;Zilong terbilang lemah ketika melakukan war lima vs lima, karena skill yang dimilikinya merupakan skill single target.&lt;/p&gt;
+&lt;p&gt;Defense yang tidak terlalu kuat dikalangan Hero fighter.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://rxl6.github.io/posts/</link>
+      <pubDate>Tue, 01 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/posts/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>RXL6</title>
+      <link>https://rxl6.github.io/</link>
+      <pubDate>Tue, 01 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://rxl6.github.io/tags/</link>
+      <pubDate>Tue, 01 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/tags/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Categories</title>
+      <link>https://rxl6.github.io/categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/categories/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>
