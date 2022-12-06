@@ -7,6 +7,288 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <item>
+      <title>Gue suka sama lu</title>
+      <link>https://rxl6.github.io/sc/posts/gue-sebenernya/</link>
+      <pubDate>Mon, 07 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/posts/gue-sebenernya/</guid>
+      <description>Klik Suratnya!
+Hai, Kamu!
+Pesan ini privat, cuma kamu yang bisa lihat ya! ...
+Sebenernya... 👉🏻👈🏻 [ 3 ]
+Gue Suka Sama Lu 😄❤️
+❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+Tapi Boong! Wkwk😜 [&amp;nbsp;4&amp;nbsp;]
+Eh&#39; Beneran Deh 🤣❤️
+Beneran Boong Maksudnya😜
+Ahahaha :v
+💌 KirimHeleh ngeselin 🤣</description>
+      <content>&lt;link href=&#34;https://feeldreams.github.io/dariaku/style.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; /&gt;
+  &lt;link href=&#34;https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;
+  &lt;link href=&#34;https://feeldreams.github.io/dariaku/style.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; /&gt;
+   &lt;!-- Ganti Audio di sini --&gt;
+   &lt;audio src=&#34;https://feeldreams.github.io/goreng.mp3&#34; id=&#34;linkmp3&#34; class=&#34;sembunyi&#34;&gt;&lt;/audio&gt;
+   &lt;div id=&#34;bodyblur&#34;&gt;
+     &lt;!-- Wallpaper --&gt;&lt;img src=&#34;https://feeldreams.github.io/bluesky.jpg&#34; id=&#34;wallpaper&#34;/&gt;&lt;div id=&#34;beneranblur&#34;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div id=&#39;Content&#39;&gt;
+     &lt;div id=&#34;suratin&#34; onClick=&#34;memulai();&#34;&gt;
+       &lt;!-- Tombol Surat --&gt;&lt;img src=&#34;https://rayyscoding.github.io/envelope.png&#34;/&gt;
+     &lt;/div&gt;
+     &lt;p id=&#34;ket&#34;&gt;Klik Suratnya!&lt;/p&gt;
+     &lt;div class=&#34;kumpulanstiker&#34;&gt;
+         &lt;!-- Stiker untuk Konten --&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/nimasi.gif&#34; id=&#34;fotoakhir&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/bunga.gif&#34; id=&#34;fotoakhir2&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peachktw.gif&#34; id=&#34;fotoakhir3&#34;/&gt;
+     &lt;/div&gt;
+     &lt;p id=&#34;halo&#34;&gt;Hai, Kamu!&lt;/p&gt;
+     &lt;div&gt;&lt;blockquote id=&#39;bq&#39;&gt;
+       &lt;!-- Konten Pembukaan --&gt;
+       &lt;p id=&#34;kalimat&#34;&gt;Pesan ini privat, cuma kamu yang bisa lihat ya! ...&lt;/p&gt;
+       &lt;p id=&#34;kalimatb&#34;&gt;Sebenernya... 👉🏻👈🏻 &lt;span style=&#34;color:#FFFC00&#34;&gt;[ &lt;b id=&#34;ctimer&#34;&gt;3&lt;/b&gt; ]&lt;/span&gt;&lt;/p&gt;
+       &lt;p id=&#34;kalimatc&#34;&gt;Gue Suka Sama Lu 😄❤️&lt;/p&gt;
+       &lt;p id=&#34;kalove&#34;&gt;❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️&lt;/p&gt;
+       &lt;p id=&#34;kalimatd&#34;&gt;Tapi Boong! Wkwk😜 &lt;span id=&#34;pewaktu&#34; style=&#34;color:#FFFC00;display:none&#34;&gt;[&amp;nbsp;&lt;b id=&#34;ctimer2&#34;&gt;4&lt;/b&gt;&amp;nbsp;]&lt;/span&gt;&lt;/p&gt;
+       &lt;p id=&#34;kalimate&#34;&gt;Eh&#39; Beneran Deh 🤣❤️&lt;/p&gt;
+       &lt;p id=&#34;kalimatf&#34;&gt;Beneran Boong Maksudnya😜&lt;/p&gt;
+       &lt;p id=&#34;kalimatg&#34;&gt;Ahahaha :v&lt;/p&gt;
+     &lt;/blockquote&gt;&lt;/div&gt;
+     &lt;!-- Tombol Multifungsi --&gt;
+     &lt;div id=&#34;Tombol&#34;&gt;
+       &lt;a onClick=&#34;multifungsi()&#34;&gt;
+         &lt;b id=&#34;tmbl&#34;&gt;💌 Kirim&lt;/b&gt;
+       &lt;/a&gt;
+     &lt;/div&gt;
+     &lt;!-- Pesan yang dikirim ke WhatsApp --&gt;
+     &lt;span id=&#34;pesanWA&#34; class=&#34;sembunyi&#34;&gt;Heleh ngeselin 🤣&lt;/span&gt;
+   &lt;/div&gt;&lt;script&gt;
+  ftom=0;ftganti=0;flag=1;flagg=1;fungsi=0;fungsiAwal=0;fungsitimer=0;vketikhalo=halo.innerHTML;
+  halo.innerHTML = &#34;&#34;;var ahalo=0,vketikhalo;pesanwhatsapp = pesanWA.innerHTML;
+  Content.style = &#34;opacity:1;margin-top:16vh;&#34;;
+  const body = document.querySelector(&#34;body&#34;);const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: &#39;#FF0040&#39;, imageWidth: 100, imageHeight: 100,});
+&lt;/script&gt;
+&lt;script src=&#34;https://feeldreams.github.io/dariaku/script.js&#34;&gt;&lt;/script&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://rxl6.github.io/sc/posts/</link>
+      <pubDate>Mon, 07 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/posts/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>RXL6</title>
+      <link>https://rxl6.github.io/sc/</link>
+      <pubDate>Mon, 07 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>script html buat crush</title>
+      <link>https://rxl6.github.io/sc/tags/script-html-buat-crush/</link>
+      <pubDate>Mon, 07 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/tags/script-html-buat-crush/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>script html bucin</title>
+      <link>https://rxl6.github.io/sc/tags/script-html-bucin/</link>
+      <pubDate>Mon, 07 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/tags/script-html-bucin/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://rxl6.github.io/sc/tags/</link>
+      <pubDate>Mon, 07 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/tags/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Give me your pap</title>
+      <link>https://rxl6.github.io/sc/posts/give-me-ur/</link>
+      <pubDate>Sun, 06 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/posts/give-me-ur/</guid>
+      <description>Klik Pesannya!
+Membeli Barang Antik
+di Kota Cilacap.. 
+Hai Nona Cantik,
+Give Me Your Pap 
+Ahaha..
+Cuaakkss~
+Boleh Gak Nih? 
+Jawabanmu: Kirim ke WhatsApp aku ya!
+Lanjut Balas</description>
+      <content>&lt;link href=&#34;https://feeldreams.github.io/hainona/style.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; /&gt;
+ &lt;link href=&#34;https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;
+   &lt;!-- Ganti Audio di sini --&gt;&lt;audio src=&#34;https://feeldreams.github.io/hainona/hainona.mp3&#34; id=&#34;linkmp3&#34;&gt;&lt;/audio&gt;&lt;script&gt;audio = new Audio(&#39;&#39; + linkmp3.src);&lt;/script&gt;
+   &lt;div id=&#34;bodyblur&#34;&gt;
+     &lt;!-- Wallpaper --&gt;&lt;img src=&#34;https://feeldreams.github.io/hainona/wpwp.jpg&#34; id=&#34;wallpaper&#34;/&gt;
+   &lt;/div&gt;
+   &lt;div id=&#39;Content&#39;&gt;
+     &lt;div id=&#34;suratin&#34;&gt;
+       &lt;!-- Tombol Surat --&gt;&lt;img src=&#34;https://rayyscoding.github.io/envelope.png&#34;/&gt;
+     &lt;/div&gt;
+     &lt;p id=&#34;ket&#34;&gt;Klik Pesannya!&lt;/p&gt;
+     &lt;div&gt;
+         &lt;!-- Stiker untuk Konten --&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peachgaruk.gif&#34; id=&#34;fotoakhir&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peachbunga2.gif&#34; id=&#34;fotoakhir1&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peachhello.gif&#34; id=&#34;fotoakhir2&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peachcekrek.gif&#34; id=&#34;fotoakhir3&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peachlove.gif&#34; id=&#34;fotoakhir4&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peachktw.gif&#34; id=&#34;fotoakhir5&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peach22.gif&#34; id=&#34;fotoAkhir&#34;/&gt;
+     &lt;/div&gt;
+     &lt;div&gt;&lt;blockquote id=&#39;bq&#39;&gt;
+       &lt;!-- Konten Penerapan --&gt;
+       &lt;p id=&#34;kalimat&#34;&gt;Membeli Barang Antik&lt;/p&gt;
+       &lt;p id=&#34;kalimata&#34;&gt;di Kota Cilacap.. &lt;/p&gt;
+       &lt;p id=&#34;kalimatb&#34;&gt;Hai Nona Cantik,&lt;/p&gt;
+       &lt;p id=&#34;kalimatc&#34;&gt;Give Me Your Pap &lt;/p&gt;
+       &lt;p id=&#34;kalimatd&#34;&gt;Ahaha..&lt;/p&gt;
+       &lt;p id=&#34;kalimatd2&#34;&gt;Cuaakkss~&lt;/p&gt;
+       &lt;!-- Konten Pertanyaan --&gt;
+       &lt;p id=&#34;kalimat2&#34;&gt;Boleh Gak Nih? &lt;/p&gt;
+       &lt;!-- Konten Jawaban --&gt;
+       &lt;p id=&#34;kalimat3&#34;&gt;Jawabanmu: &lt;/p&gt;
+       &lt;p id=&#34;kalimatb3&#34;&gt;Kirim ke WhatsApp aku ya!&lt;/p&gt;
+     &lt;/blockquote&gt;&lt;/div&gt;
+     &lt;!-- Tombol Multifungsi --&gt;
+     &lt;div id=&#34;Tombol&#34;&gt;
+       &lt;a id=&#34;By&#34; onClick=&#34;multifungsi()&#34;&gt;
+         &lt;b id=&#34;tmbl&#34;&gt;Lanjut&lt;/b&gt;
+         &lt;b id=&#34;tmbl2&#34;&gt; Balas&lt;/b&gt;
+       &lt;/a&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+&lt;!-- Jangan Edit Bagian Ini --&gt;&lt;script&gt;
+  const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 100,}); ftom=0;jikatom=0;ftganti=0;fungsi=0; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: &#39;#FF0040&#39;, imageWidth: 100, imageHeight: 100,}); const body = document.querySelector(&#34;body&#34;);function createHeart() {const heart = document.createElement(&#34;div&#34;); heart.className = &#34;fas fa-heart&#34;; heart.style.left = (Math.random() * 90)+&#34;vw&#34;; heart.style.animationDuration = (Math.random()*3)+2+&#34;s&#34;; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(&#34;.fa-heart&#34;); if (heartArr.length &gt; 100) {heartArr[0].remove()}},100);
+  function mulaikonten() {
+                          setTimeout(fmketik1,1200);setTimeout(mketik1,1200);
+                          setTimeout(fmketik2,2500);setTimeout(mketik2,2500);
+                          setTimeout(fmketik3,4100);setTimeout(mketik3,4100);
+                          setTimeout(fmketik4,5300);setTimeout(mketik4,5300);
+                          setTimeout(fmketik5,6300);setTimeout(mketik5,6300);
+                         }
+  async function menuju(){await swals.fire(&#39;OK!&#39;, &#39;Kirim pesan ke WhatsApp aku, ya!&#39;, &#39;success&#39;);window.location = &#34;https://api.whatsapp.com/send?phone=&amp;text=&#34; + pesanwhatsapp;Tombol.style=&#34;margin-top:15px;opacity:1;transform: scale(1);&#34;;}
+&lt;/script&gt;
+&lt;script src=&#34;https://feeldreams.github.io/hainona/script.js&#34;&gt;&lt;/script&gt;</content>
+    </item>
+    
+    <item>
+      <title>Good Night</title>
+      <link>https://rxl6.github.io/sc/posts/good-night/</link>
+      <pubDate>Sat, 05 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/posts/good-night/</guid>
+      <description> Klik Kadonya!
+Good Night!
+Dah Segitu Aja ya.. 🤭❤️ Selamat melepas lelah, jangan lupa baca doa dulu sebelum bobo 😍 ... Semangat buat besok jalani harinya yaa.. 🥳
+I Love You ❤️
+Good Night ❤️
+Mimpi Indah ya ❤️
+💌 KirimAwww Good Night too ❤️❤️❤️</description>
+      <content>  &lt;link href=&#34;https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;
+  &lt;link href=&#34;https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;
+  &lt;link href=&#34;https://fonts.googleapis.com/css2?family=Dancing+Script&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;
+  &lt;script src=&#34;https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js&#34;&gt;&lt;/script&gt;
+  &lt;script src=&#34;https://kit.fontawesome.com/4f3ce16e3e.js&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;&lt;link href=&#34;https://feeldreams.github.io/night/style.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; /&gt;
+   &lt;!-- Ganti Audio di sini --&gt;
+   &lt;audio src=&#34;https://feeldreams.github.io/fullsenyum.mp3&#34; id=&#34;linkmp3&#34; class=&#34;sembunyi&#34;&gt;&lt;/audio&gt;
+   &lt;div id=&#34;bodyblur&#34;&gt;
+     &lt;!-- Wallpaper --&gt;&lt;img src=&#34;https://feeldreams.github.io/nightin.jpeg&#34; id=&#34;wallpaper&#34;/&gt;&lt;div id=&#34;beneranblur&#34;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div id=&#39;Content&#39;&gt;
+     &lt;div id=&#34;suratin&#34; onClick=&#34;memulai();&#34;&gt;
+       &lt;!-- Tombol Surat --&gt;&lt;img src=&#34;https://feeldreams.github.io/kadoin.png&#34;/&gt;
+     &lt;/div&gt;
+     &lt;p id=&#34;ket&#34;&gt;Klik Kadonya!&lt;/p&gt;
+     &lt;div class=&#34;kumpulanstiker&#34;&gt;
+         &lt;!-- Stiker untuk Konten --&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/pusn.gif&#34; id=&#34;stiker1&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/bunga.gif&#34; id=&#34;stiker2&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/mndkat.gif&#34; id=&#34;stiker3&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/smprt.gif&#34; id=&#34;stiker4&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/ngumpet.gif&#34; id=&#34;stiker5&#34;/&gt;
+         &lt;!-- Stiker untuk Akhiran --&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/bunga.gif&#34; id=&#34;stiker&#34;/&gt;
+     &lt;/div&gt;
+     &lt;p id=&#34;halo&#34;&gt;Good Night!&lt;/p&gt;
+     &lt;script class=&#34;sembunyi&#34;&gt;
+       async function pesanAwal() {
+          suratin.style=&#34;display:none&#34;;ket.style=&#34;display:none&#34;;
+          await swalst.fire({
+            title: &#39;Hai, Kamu! ❤️&#39;,
+            imageUrl: &#39;&#39; + stiker1.src,
+         });   	
+         await swalst.fire({
+            title: &#39;Aku Cuma Mau Bilang 😍&#39;,
+            imageUrl: &#39;&#39; + stiker2.src,
+         });
+         await swalst.fire({
+            title: &#39;Good Night ya! 🤭❤️&#39;,
+            imageUrl: &#39;&#39; + stiker3.src,
+         });
+         await swalst.fire({
+            title: &#39;Gabole Tidur Malem² 😡❤️&#39;,
+            imageUrl: &#39;&#39; + stiker4.src,
+         });
+         await swalst.fire({
+            title: &#39;Ntar ovt lagi loh 🥺❤️&#39;,
+            imageUrl: &#39;&#39; + stiker5.src,
+         });
+         mulaikonten();
+       }
+     &lt;/script&gt;
+     &lt;div&gt;&lt;blockquote id=&#39;bq&#39;&gt;
+       &lt;!-- Konten Pembukaan --&gt;
+       &lt;p id=&#34;kalimat&#34;&gt;Dah Segitu Aja ya.. 🤭❤️     &lt;/p&gt;
+       &lt;p id=&#34;kalimat2&#34;&gt;Selamat melepas lelah, jangan lupa baca doa dulu sebelum bobo 😍 ... Semangat buat besok jalani harinya yaa.. 🥳&lt;/p&gt;
+       &lt;p id=&#34;kalimatbawah&#34;&gt;I Love You ❤️&lt;/p&gt; 
+       &lt;p id=&#34;kalimatbawah2&#34; class=&#34;sembunyi&#34;&gt;Good Night ❤️&lt;/p&gt; 
+       &lt;p id=&#34;kalimatbawah3&#34; class=&#34;sembunyi&#34;&gt;Mimpi Indah ya ❤️&lt;/p&gt; 
+     &lt;/blockquote&gt;&lt;/div&gt;
+     &lt;!-- Tombol Multifungsi --&gt;
+     &lt;div id=&#34;Tombol&#34;&gt;
+       &lt;a onClick=&#34;multifungsi()&#34;&gt;
+         &lt;b id=&#34;tmbl&#34;&gt;💌 Kirim&lt;/b&gt;
+       &lt;/a&gt;
+     &lt;/div&gt;
+     &lt;!-- Pesan yang dikirim ke WhatsApp --&gt;
+     &lt;span id=&#34;pesanWA&#34; class=&#34;sembunyi&#34;&gt;Awww Good Night too ❤️❤️❤️&lt;/span&gt; 
+   &lt;/div&gt;
+&lt;!-- Jangan Edit Bagian Ini --&gt;&lt;script&gt; ftom=0;aksift=0;ftganti=0;flag=1;flagg=1;fungsi=0;fungsiAwal=0;fungsitimer=0;vketikhalo=halo.innerHTML
+  halo.innerHTML = &#34;&#34;;var ahalo=0,vketikhalo;pesanwhatsapp = pesanWA.innerHTML;
+  Content.style = &#34;opacity:1;margin-top:16vh;&#34;; 
+  async function menuju(){window.location = &#34;https://api.whatsapp.com/send?phone=&amp;text=&#34; + pesanwhatsapp;}
+  const body = document.querySelector(&#34;body&#34;);const swalst = Swal.mixin({timer: 2300, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: &#39;#FF0040&#39;, imageWidth: 100, imageHeight: 100,});
+  audio = new Audio(&#39;&#39; + linkmp3.src);  
+  function createHeart() {const heart = document.createElement(&#34;div&#34;); heart.className = &#34;fas fa-heart&#34;; heart.style.left = (Math.random() * 90)+&#34;vw&#34;; heart.style.animationDuration = (Math.random()*3)+2+&#34;s&#34;; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(&#34;.fa-heart&#34;); if (heartArr.length &gt; 100) {heartArr[0].remove()}},100);
+&lt;/script&gt;
+&lt;script src=&#34;https://feeldreams.github.io/night/script.js&#34;&gt;&lt;/script&gt;</content>
+    </item>
+    
+    <item>
       <title>Akan kutemani kamu</title>
       <link>https://rxl6.github.io/sc/posts/akan-kutemani/</link>
       <pubDate>Fri, 04 Nov 2022 00:57:47 +0000</pubDate>
@@ -81,46 +363,6 @@ Lanjut💌 Balas</description>
 &lt;/script&gt;
 &lt;script src=&#34;https://feeldreams.github.io/akanku/script.js&#34;&gt;&lt;/script&gt;
 </content>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>https://rxl6.github.io/sc/posts/</link>
-      <pubDate>Fri, 04 Nov 2022 00:57:47 +0000</pubDate>
-      
-      <guid>https://rxl6.github.io/sc/posts/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>RXL6</title>
-      <link>https://rxl6.github.io/sc/</link>
-      <pubDate>Fri, 04 Nov 2022 00:57:47 +0000</pubDate>
-      
-      <guid>https://rxl6.github.io/sc/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>script html bucin</title>
-      <link>https://rxl6.github.io/sc/tags/script-html-bucin/</link>
-      <pubDate>Fri, 04 Nov 2022 00:57:47 +0000</pubDate>
-      
-      <guid>https://rxl6.github.io/sc/tags/script-html-bucin/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>Tags</title>
-      <link>https://rxl6.github.io/sc/tags/</link>
-      <pubDate>Fri, 04 Nov 2022 00:57:47 +0000</pubDate>
-      
-      <guid>https://rxl6.github.io/sc/tags/</guid>
-      <description></description>
-      <content></content>
     </item>
     
     <item>
@@ -280,7 +522,7 @@ Mau!GamauYah.</description>
        &lt;p id=&#34;kataditolak&#34;&gt;Yah.. yaudah deh :(&lt;/p&gt;
      &lt;/div&gt;
    &lt;/div&gt;
-&lt;script src=&#39;https://rxl6.github.io/sc/js/bucin1.js&#39;&gt;
+&lt;script src=&#39;https://rxl6.github.io/sc/sc/js/bucin1.js&#39;&gt;
 &lt;/script&gt;
 &lt;script src=&#34;https://feeldreams.github.io/thisyou/script.js&#34;&gt;&lt;/script&gt;
 </content>
@@ -353,20 +595,10 @@ Mau!GamauYah.. yaudah deh :(</description>
        &lt;p id=&#34;kataditolak&#34;&gt;Yah.. yaudah deh :(&lt;/p&gt;
      &lt;/div&gt;
    &lt;/div&gt;
-&lt;script src=&#39;https://rxl6.github.io/sc/js/bucin1.js&#39;&gt;
+&lt;script src=&#39;https://rxl6.github.io/sc/sc/js/bucin1.js&#39;&gt;
 &lt;/script&gt;
 &lt;script src=&#34;https://feeldreams.github.io/thisyou/script.js&#34;&gt;&lt;/script&gt;
 </content>
-    </item>
-    
-    <item>
-      <title>script html buat crush</title>
-      <link>https://rxl6.github.io/sc/tags/script-html-buat-crush/</link>
-      <pubDate>Tue, 01 Nov 2022 00:57:47 +0000</pubDate>
-      
-      <guid>https://rxl6.github.io/sc/tags/script-html-buat-crush/</guid>
-      <description></description>
-      <content></content>
     </item>
     
     <item>
