@@ -7,6 +7,129 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <item>
+      <title>Happy Anniversary</title>
+      <link>https://rxl6.github.io/sc/posts/happy-anny/</link>
+      <pubDate>Thu, 10 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/posts/happy-anny/</guid>
+      <description>Klik Kadonya!
+Hai, Kamu!
+Happy Anniversary! 🎉
+Harapanku di momen spesial ini, semoga kita tetap bisa bersama dan selalu satu tujuan &lt;3
+I Love You ❤️
+Selamat Hari Jadi ❤️
+Aku Sayang Kamu ❤️
+Aku Cuma Mau Bilang Nih..
+Sebelumnya, Makasii yaa Udah Bertahan Sama Aku 🤭
+Makasii Juga Udah Mau Nerima Aku Apa Adanya 🥺
+Meskipun Kita Sering Marahan,
+Tapi Aku Tetap Sayang Kamu 😍
+Klik LOVE di Samping Kiri ya!</description>
+      <content>   &lt;link href=&#34;https://fonts.googleapis.com/css2?family=Shippori+Antique:wght@400;700&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;
+  &lt;link href=&#34;https://fonts.googleapis.com/css2?family=Dancing+Script&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;
+  &lt;script src=&#34;https://rxl6.github.io/sc/sc/js/sweetalert.js&#34;&gt;&lt;/script&gt;
+  &lt;script src=&#34;https://rxl6.github.io/sc/sc/js/typeit.js&#34;&gt;&lt;/script&gt;
+  &lt;script src=&#34;https://rxl6.github.io/sc/sc/js/font-awsome.js&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://rxl6.github.io/sc/sc/css/Withyou.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; /&gt;
+   &lt;!-- Ganti Audio di sini --&gt;
+   &lt;audio src=&#34;https://rxl6.github.io/sc/sc/mp3/fullsenyum.mp3&#34; id=&#34;linkmp3&#34; class=&#34;sembunyi&#34;&gt;&lt;/audio&gt;
+   &lt;div id=&#34;bodyblur&#34;&gt;
+     &lt;!-- Wallpaper --&gt;&lt;img src=&#34;https://rxl6.github.io/sc/sc/images/vendor/wp2.jpeg&#34; id=&#34;wallpaper&#34;/&gt;&lt;div id=&#34;beneranblur&#34;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div id=&#39;Content&#39;&gt;
+     &lt;div id=&#34;kadoIn&#34;&gt;
+       &lt;!-- Tombol Surat --&gt;&lt;img src=&#34;https://rxl6.github.io/sc/sc/images/vendor/kadoin.png&#34;/&gt;
+     &lt;/div&gt;
+     &lt;p id=&#34;ket&#34;&gt;Klik Kadonya!&lt;/p&gt;
+     &lt;div class=&#34;kumpulanstiker&#34;&gt;
+         &lt;!-- Stiker untuk Konten --&gt;
+         &lt;img src=&#34;https://rxl6.github.io/sc/sc/images/vendor/gif/peach6.gif&#34; id=&#34;fotostiker&#34;/&gt;
+         &lt;img src=&#34;https://rxl6.github.io/sc/sc/images/vendor/gif/peach11.gif&#34; id=&#34;fotostiker2&#34;/&gt;
+         &lt;img src=&#34;https://rxl6.github.io/sc/sc/images/vendor/gif/peachhug.gif&#34; id=&#34;fotostiker3&#34;/&gt;
+     &lt;/div&gt;
+     &lt;p id=&#34;halo&#34; class=&#34;halo&#34;&gt;Hai, Kamu!&lt;/p&gt;
+     &lt;!-- Konten Pesan Setelah Aksi --&gt;
+     &lt;p id=&#34;halo2&#34; class=&#34;halo sty2&#34;&gt;Happy Anniversary! 🎉&lt;/p&gt;
+     &lt;p id=&#34;halo3&#34; class=&#34;halo sty3&#34;&gt;Harapanku di momen spesial ini, semoga kita tetap bisa bersama dan selalu satu tujuan &lt;3&lt;/p&gt;
+     &lt;!-- Tanggal Otomatis Sesuai Hari Ini --&gt;&lt;p id=&#34;tanggal&#34; class=&#34;halo sty3&#34;&gt;&lt;/p&gt;
+     &lt;!-- Konten Pesan Akhir --&gt;
+     &lt;p id=&#34;kalimatbawah&#34;&gt;I Love You ❤️&lt;/p&gt; 
+     &lt;p id=&#34;kalimatbawah2&#34; class=&#34;sembunyi&#34;&gt;Selamat Hari Jadi ❤️&lt;/p&gt; 
+     &lt;p id=&#34;kalimatbawah3&#34; class=&#34;sembunyi&#34;&gt;Aku Sayang Kamu ❤️&lt;/p&gt;
+     &lt;div&gt;&lt;blockquote id=&#39;bq&#39; data-text=&#39;&amp;#9829;&#39;&gt;
+       &lt;!-- Konten Pembukaan --&gt;
+       &lt;p id=&#34;kalimat&#34;&gt;Aku Cuma Mau Bilang Nih..&lt;/p&gt;
+       &lt;p id=&#34;kalimatb&#34;&gt;Sebelumnya, Makasii yaa Udah Bertahan Sama Aku 🤭&lt;/p&gt;
+       &lt;p id=&#34;kalimatc&#34;&gt;Makasii Juga Udah Mau Nerima Aku Apa Adanya 🥺&lt;/p&gt;
+       &lt;p id=&#34;kalimatd&#34;&gt;Meskipun Kita Sering Marahan,&lt;/p&gt;
+       &lt;p id=&#34;kalimate&#34;&gt;Tapi Aku Tetap Sayang Kamu 😍&lt;/p&gt;
+       &lt;p id=&#34;kalimatf&#34;&gt;Klik LOVE di Samping Kiri ya!&lt;/p&gt;
+       &lt;p id=&#34;opsL&#34;&gt;Klik untuk Lanjut&lt;/p&gt;
+     &lt;/blockquote&gt;&lt;/div&gt;
+     &lt;!-- Tombol Kirim Pesan --&gt;
+     &lt;div id=&#34;Tombol&#34;&gt;&lt;a id=&#34;By&#34;&gt;&amp;#128140; Balas&lt;/a&gt;&lt;/div&gt;
+     &lt;!-- Pesan yang dikirim ke WhatsApp --&gt;
+     &lt;span id=&#34;pesanWA&#34; class=&#34;sembunyi&#34;&gt;Aww, Happy Anniversary too!&lt;/span&gt;
+   &lt;/div&gt;
+&lt;!-- Jangan Edit Bagian Ini --&gt;&lt;script&gt;
+  const body = document.querySelector(&#34;body&#34;); const style = document.createElement(&#39;style&#39;); var today = new Date();var dd = String(today.getDate()).padStart(2, &#39;0&#39;);var mm = String(today.getMonth() + 1).padStart(2, &#39;0&#39;);var yyyy = today.getFullYear();const monthNames = [&#34;Januari&#34;, &#34;Februari&#34;, &#34;Maret&#34;, &#34;April&#34;, &#34;Mei&#34;, &#34;Juni&#34;, &#34;Juli&#34;, &#34;Agustus&#34;, &#34;September&#34;, &#34;Oktober&#34;, &#34;November&#34;, &#34;Desember&#34;];today = dd + &#39; &#39; + monthNames[today.getMonth()] + &#39; &#39; + yyyy; inikuis=0;ftganti=0;flag=1;flagg=1;fungsi=0;ftfungsi=0;fungsiAwal=0;fungsitimer=0;vketikhalo=halo.innerHTML;halo.innerHTML = &#34;&#34;;vketikhalo2=halo2.innerHTML;halo2.innerHTML = &#34;&#34;;pesanwhatsapp = pesanWA.innerHTML;deffotostiker=fotostiker.src;Content.style = &#34;opacity:1;margin-top:16vh;&#34;;
+  audio = new Audio(&#39;&#39; + linkmp3.src);tanggal.innerHTML=&#34;- &#34; + today + &#34; -&#34;; function createHeart() {const heart = document.createElement(&#34;div&#34;); heart.className = &#34;fas fa-heart&#34;; heart.style.left = (Math.random() * 90)+&#34;vw&#34;; heart.style.animationDuration = (Math.random()*3)+2+&#34;s&#34;; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(&#34;.fa-heart&#34;); if (heartArr.length &gt; 100) {heartArr[0].remove()}},100);
+&lt;/script&gt;
+&lt;script src=&#34;https://rxl6.github.io/sc/sc/js/Withyou.js&#34;&gt;&lt;/script&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://rxl6.github.io/sc/posts/</link>
+      <pubDate>Thu, 10 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/posts/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>RXL6</title>
+      <link>https://rxl6.github.io/sc/</link>
+      <pubDate>Thu, 10 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>script html buat crush</title>
+      <link>https://rxl6.github.io/sc/tags/script-html-buat-crush/</link>
+      <pubDate>Thu, 10 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/tags/script-html-buat-crush/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>script html bucin</title>
+      <link>https://rxl6.github.io/sc/tags/script-html-bucin/</link>
+      <pubDate>Thu, 10 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/tags/script-html-bucin/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://rxl6.github.io/sc/tags/</link>
+      <pubDate>Thu, 10 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/tags/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
       <title>Katanya sayang, kok menghilang?</title>
       <link>https://rxl6.github.io/sc/posts/katanya/</link>
       <pubDate>Wed, 09 Nov 2022 00:57:47 +0000</pubDate>
@@ -88,56 +211,6 @@ Lanjut💌 Balas</description>
 &lt;/script&gt;
 &lt;script src=&#34;https://feeldreams.github.io/katanya/script.js&#34;&gt;&lt;/script&gt;
 </content>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>https://rxl6.github.io/sc/posts/</link>
-      <pubDate>Wed, 09 Nov 2022 00:57:47 +0000</pubDate>
-      
-      <guid>https://rxl6.github.io/sc/posts/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>RXL6</title>
-      <link>https://rxl6.github.io/sc/</link>
-      <pubDate>Wed, 09 Nov 2022 00:57:47 +0000</pubDate>
-      
-      <guid>https://rxl6.github.io/sc/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>script html buat crush</title>
-      <link>https://rxl6.github.io/sc/tags/script-html-buat-crush/</link>
-      <pubDate>Wed, 09 Nov 2022 00:57:47 +0000</pubDate>
-      
-      <guid>https://rxl6.github.io/sc/tags/script-html-buat-crush/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>script html bucin</title>
-      <link>https://rxl6.github.io/sc/tags/script-html-bucin/</link>
-      <pubDate>Wed, 09 Nov 2022 00:57:47 +0000</pubDate>
-      
-      <guid>https://rxl6.github.io/sc/tags/script-html-bucin/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>Tags</title>
-      <link>https://rxl6.github.io/sc/tags/</link>
-      <pubDate>Wed, 09 Nov 2022 00:57:47 +0000</pubDate>
-      
-      <guid>https://rxl6.github.io/sc/tags/</guid>
-      <description></description>
-      <content></content>
     </item>
     
     <item>
