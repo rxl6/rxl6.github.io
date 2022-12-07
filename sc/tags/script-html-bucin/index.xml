@@ -6,7 +6,159 @@
     <description>Recent content in script html bucin on RXL6</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Nov 2022 00:57:47 +0000</lastBuildDate><atom:link href="https://rxl6.github.io/sc/tags/script-html-bucin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Nov 2022 00:57:47 +0000</lastBuildDate><atom:link href="https://rxl6.github.io/sc/tags/script-html-bucin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Katanya sayang, kok menghilang?</title>
+      <link>https://rxl6.github.io/sc/posts/katanya/</link>
+      <pubDate>Wed, 09 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/posts/katanya/</guid>
+      <description>Klik Pesannya!
+Katanya Sayang..
+Kok Menghilang? 😄
+Itu Sayang..
+Apa Omong Kosong Doang? 🥺
+Hehe 👉🏻👈🏻
+Mana Janjinya? 😄💔
+Jawabanmu: Kirim ke WhatsApp aku ya!
+Lanjut💌 Balas</description>
+      <content>&lt;link href=&#34;https://feeldreams.github.io/katanya/style.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; /&gt;
+  &lt;link href=&#34;https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;
+   &lt;!-- Ganti Audio di sini --&gt;&lt;audio src=&#34;https://feeldreams.github.io/katanya/katanya.mp3&#34; id=&#34;linkmp3&#34;&gt;&lt;/audio&gt;&lt;script&gt;audio = new Audio(&#39;&#39; + linkmp3.src);&lt;/script&gt;
+   &lt;div id=&#34;bodyblur&#34;&gt;
+     &lt;!-- Wallpaper --&gt;&lt;img src=&#34;https://feeldreams.github.io/wp8.jpg&#34; id=&#34;wallpaper&#34;/&gt;
+   &lt;/div&gt;
+   &lt;div id=&#39;Content&#39;&gt;
+     &lt;div id=&#34;suratin&#34; onClick=&#34;memulai();&#34;&gt;
+       &lt;!-- Tombol Surat --&gt;&lt;img src=&#34;https://rayyscoding.github.io/envelope.png&#34;/&gt;
+     &lt;/div&gt;
+     &lt;p id=&#34;ket&#34;&gt;Klik Pesannya!&lt;/p&gt;
+     &lt;div&gt;
+         &lt;!-- Stiker untuk Konten --&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peach6.gif&#34; id=&#34;fotoakhir&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peachsad1.gif&#34; id=&#34;fotoakhir1&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peachgaruk.gif&#34; id=&#34;fotoakhir2&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peachsad2.gif&#34; id=&#34;fotoakhir3&#34;/&gt;
+        &lt;img src=&#34;https://feeldreams.github.io/peachsad4.gif&#34; id=&#34;fotoakhir4&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/peachsad3.gif&#34; id=&#34;fotoAkhir&#34;/&gt;
+     &lt;/div&gt;
+     &lt;div&gt;&lt;blockquote id=&#39;bq&#39;&gt;
+       &lt;!-- Konten Penerapan --&gt;
+       &lt;p id=&#34;kalimat&#34;&gt;Katanya Sayang..&lt;/p&gt;
+       &lt;p id=&#34;kalimata&#34;&gt;Kok Menghilang? 😄&lt;/p&gt;
+       &lt;p id=&#34;kalimatb&#34;&gt;Itu Sayang..&lt;/p&gt;
+       &lt;p id=&#34;kalimatc&#34;&gt;Apa Omong Kosong Doang? 🥺&lt;/p&gt;
+       &lt;p id=&#34;kalimatd&#34;&gt;Hehe 👉🏻👈🏻&lt;/p&gt;
+       &lt;!-- Konten Pertanyaan --&gt;
+       &lt;p id=&#34;kalimat2&#34;&gt;Mana Janjinya? 😄💔&lt;/p&gt;
+       &lt;!-- Konten Jawaban --&gt;
+       &lt;p id=&#34;kalimat3&#34;&gt;Jawabanmu: &lt;/p&gt;
+       &lt;p id=&#34;kalimatb3&#34;&gt;Kirim ke WhatsApp aku ya!&lt;/p&gt;
+     &lt;/blockquote&gt;&lt;/div&gt;
+     &lt;!-- Tombol Multifungsi --&gt;
+     &lt;div id=&#34;Tombol&#34;&gt;
+       &lt;a id=&#34;By&#34; onClick=&#34;multifungsi()&#34;&gt;
+         &lt;b id=&#34;tmbl&#34;&gt;Lanjut&lt;/b&gt;
+         &lt;b id=&#34;tmbl2&#34;&gt;💌 Balas&lt;/b&gt;
+       &lt;/a&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+&lt;!-- Jangan Edit Bagian Ini --&gt;&lt;script&gt;
+  function mulaikonten() {fungsi=1;suratin.style=&#34;display:none&#34;;ket.style=&#34;display:none&#34;;Content.style = &#34;opacity:1;margin-top:4vh;&#34;;bodyblur.style=&#34;opacity:.3;animation:none&#34;;wallpaper.style=&#34;transform: scale(1);&#34;;bq.style = &#34;position:relative;opacity:1;visibility:visible;margin-top:0;&#34;;audio.play();ftganti=0;ftmuncul();
+                          setTimeout(fmketik1,900);setTimeout(mketik1,900);
+                          setTimeout(fmketik2,2500);setTimeout(mketik2,2500);
+                          setTimeout(fmketik3,4200);setTimeout(mketik3,4200);
+                          setTimeout(fmketik4,6000);setTimeout(mketik4,6000);
+                          setTimeout(fmketik5,8000);setTimeout(mketik5,8000);
+                         }
+  async function menuju(){await swals.fire(&#39;OK!&#39;, &#39;Kirim pesan ke WhatsApp aku, ya!&#39;, &#39;success&#39;);window.location = &#34;https://api.whatsapp.com/send?phone=&amp;text=&#34; + pesanwhatsapp;Tombol.style=&#34;margin-top:15px;opacity:1;transform: scale(1);&#34;;}
+  const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 100,});ftom=0;jikatom=0;ftganti=0;fungsi=0;const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: &#39;#FF0040&#39;, imageWidth: 100, imageHeight: 100,}); const body = document.querySelector(&#34;body&#34;);function createHeart() {const heart = document.createElement(&#34;div&#34;); heart.className = &#34;fas fa-heart&#34;; heart.style.left = (Math.random() * 90)+&#34;vw&#34;; heart.style.animationDuration = (Math.random()*3)+2+&#34;s&#34;; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(&#34;.fa-heart&#34;); if (heartArr.length &gt; 100) {heartArr[0].remove()}},100);
+   async function jawab(){
+           var { value: jawaban } = await swals.fire({
+               title: &#39;Tulis Pesan &amp;#128073;&amp;#128072;&#39;, input: &#39;text&#39;, allowOutsideClick: false, showCancelButton: false,
+           });
+           if(jawaban &amp;&amp; jawaban.length &lt; 19){
+           	window.jawaban = jawaban;
+               pesanwhatsapp = jawaban;
+               balasan = jawaban;
+               otomatis3();setTimeout(stakhir,1000);
+           } else {
+               await swals.fire(&#39;Ups!&#39;, &#39;Jawaban tidak boleh kosong atau lebih dari 18 karakter, ya!&#39;);
+           }
+       }
+&lt;/script&gt;
+&lt;script src=&#34;https://feeldreams.github.io/katanya/script.js&#34;&gt;&lt;/script&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Gw sekolah mah buat cari ilmu</title>
+      <link>https://rxl6.github.io/sc/posts/gw-sekolah-buat/</link>
+      <pubDate>Tue, 08 Nov 2022 00:57:47 +0000</pubDate>
+      
+      <guid>https://rxl6.github.io/sc/posts/gw-sekolah-buat/</guid>
+      <description>Klik Pesannya!
+Lah Gw Sekolah Mah Buat Cari Ilmu..
+Ya Bonusnya Ketemu Kamu.. 
+Ugghh... Meledak!! 
+Iyaa Ga Sih? 
+Jawabanmu: Kirim jawabannya ke WhatsApp aku yaa~
+Lanjut Balas</description>
+      <content>&lt;link href=&#34;https://feeldreams.github.io/lahgw/style.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; /&gt;
+  &lt;link href=&#34;https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;
+   &lt;!-- Ganti Audio di sini --&gt;&lt;audio src=&#34;https://feeldreams.github.io/lahgw/lahgw.mp3&#34; id=&#34;linkmp3&#34;&gt;&lt;/audio&gt;&lt;script&gt;audio = new Audio(&#39;&#39; + linkmp3.src);&lt;/script&gt;
+   &lt;div id=&#34;bodyblur&#34;&gt;
+     &lt;!-- Wallpaper --&gt;&lt;img src=&#34;https://feeldreams.github.io/lahgw/wphdr.jpg&#34; id=&#34;wallpaper&#34;/&gt;&lt;div id=&#34;beneranblur&#34;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div id=&#39;Content&#39;&gt;
+     &lt;div id=&#34;suratin&#34; onClick=&#34;memulai();&#34;&gt;
+       &lt;!-- Tombol Surat --&gt;&lt;img src=&#34;https://rayyscoding.github.io/envelope.png&#34;/&gt;
+     &lt;/div&gt;
+     &lt;p id=&#34;ket&#34;&gt;Klik Pesannya!&lt;/p&gt;
+     &lt;div&gt;
+         &lt;!-- Stiker untuk Konten --&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/tinju.gif&#34; id=&#34;fotoakhir&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/pandateriak.gif&#34; id=&#34;fotoakhir1&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/weee.gif&#34; id=&#34;fotoakhir2&#34;/&gt;
+         &lt;img src=&#34;https://feeldreams.github.io/emawh.gif&#34; id=&#34;fotoAkhir&#34;/&gt;
+     &lt;/div&gt;
+     &lt;div&gt;&lt;blockquote id=&#39;bq&#39;&gt;
+       &lt;!-- Konten Penerapan --&gt;
+       &lt;p id=&#34;kalimat&#34;&gt;Lah Gw Sekolah Mah Buat Cari Ilmu..&lt;/p&gt;
+       &lt;p id=&#34;kalimata&#34;&gt;Ya Bonusnya Ketemu Kamu.. &lt;/p&gt;
+       &lt;p id=&#34;kalimatb&#34;&gt;Ugghh... Meledak!! &lt;/p&gt;
+       &lt;!-- Konten Pertanyaan --&gt;
+       &lt;p id=&#34;kalimat2&#34;&gt;Iyaa Ga Sih? &lt;/p&gt;
+       &lt;!-- Konten Jawaban --&gt;
+       &lt;p id=&#34;kalimat3&#34;&gt;Jawabanmu: &lt;/p&gt;
+       &lt;p id=&#34;kalimatb3&#34;&gt;Kirim jawabannya ke WhatsApp aku yaa~&lt;/p&gt;
+     &lt;/blockquote&gt;&lt;/div&gt;
+     &lt;!-- Tombol Multifungsi --&gt;
+     &lt;div id=&#34;Tombol&#34;&gt;
+       &lt;a id=&#34;By&#34; onClick=&#34;multifungsi()&#34;&gt;
+         &lt;b id=&#34;tmbl&#34;&gt;Lanjut&lt;/b&gt;
+         &lt;b id=&#34;tmbl2&#34;&gt; Balas&lt;/b&gt;
+       &lt;/a&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+&lt;!-- Jangan Edit Bagian Ini --&gt;&lt;script&gt;
+  const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 100,});ftom=0;jikakuis=0;ftganti=0;flag=1;flagg=1;fungsi=0;const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: &#39;#FF0040&#39;, imageWidth: 100, imageHeight: 100,}); const body = document.querySelector(&#34;body&#34;);function createHeart() {const heart = document.createElement(&#34;div&#34;); heart.className = &#34;fas fa-heart&#34;; heart.style.left = (Math.random() * 90)+&#34;vw&#34;; heart.style.animationDuration = (Math.random()*3)+2+&#34;s&#34;; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(&#34;.fa-heart&#34;); if (heartArr.length &gt; 100) {heartArr[0].remove()}},100);
+  function mulaikonten() {
+                          fmulaikonten();audio.play();ftganti=0;ftmuncul();
+                          setTimeout(fmulaiketik1,400);setTimeout(mulaiketik1,400);
+                          setTimeout(fmulaiketik1b,2200);setTimeout(mulaiketik1b,2200);
+                          setTimeout(fmulaiketik2,3600);setTimeout(mulaiketik2,3600);
+                         }
+  function ftmuncul(){
+    if(ftganti==0){fotoakhir.style=&#34;display:inline-flex;transition:all .7s ease;opacity:1;transform:scale(1)&#34;;}
+    if(ftganti==1){fotoakhir.src = fotoakhir1.src;fotoakhir.style=&#34;display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);&#34;;}
+    if(ftganti==2){fotoakhir.src = fotoakhir2.src;fotoakhir.style=&#34;display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);&#34;;}
+    if(ftganti==3){fotoakhir.src = fotoAkhir.src;fotoakhir.style=&#34;display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);&#34;;}
+  }
+&lt;/script&gt;
+&lt;script src=&#34;https://feeldreams.github.io/lahgw/script.js&#34;&gt;&lt;/script&gt;</content>
+    </item>
+    
     <item>
       <title>Gue suka sama lu</title>
       <link>https://rxl6.github.io/sc/posts/gue-sebenernya/</link>
