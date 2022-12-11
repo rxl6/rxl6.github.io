@@ -1,0 +1,4 @@
+source bot.cfg
+sleep 1
+echo -en "\nwait\n"
+echo $dir
