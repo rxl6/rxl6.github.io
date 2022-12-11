@@ -34,6 +34,24 @@ contohnya WhatsApp tidak akan menerima pesan sebelum kamu membukanya, tapi janga
     </item>
     
     <item>
+      <title>Script upload github terbaru</title>
+      <link>https://rxl6.github.io/tips/script-uplad-github/</link>
+      <pubDate>Mon, 05 Dec 2022 00:57:47 +0000</pubDate>
+      <author>help.fo.rpl5@gmail.com (Irul)</author>
+      <guid>https://rxl6.github.io/tips/script-uplad-github/</guid>
+      <description>&lt;p&gt;Halo sobat-sobat semua, di artikel kali ini saya akan membagikan script uploader file ke github, yang pastinya mempermudah kamu dalam memproses upload file ke akun github kamu nih sob.&lt;/p&gt;
+&lt;p&gt;Sebenarnya script ini sangat mudah dibuat kok, hanya saja saya menambahkan beberapa animasi &amp;amp; warna agar tampilan script jadi lebih menarik dan ga ngebosenin.&lt;/p&gt;
+&lt;p&gt;Mari pahami terlebih dahulu tentang script yang akan saya bagikan ini, sebenarnya isi dari script ini memanglah sama dengan saat kamu meng-upload file ke github secara manual, tapi dengan adanya script ini kamu tidak perlu lagi banyak banyak ngetik yang bikin jari kamu capek.&lt;/p&gt;
+&lt;h4&gt;Download Script Auto Upload File Ke Github&lt;/h4&gt;
+&lt;p&gt;Dalam file ini sudah saya tambahkan kode yang berfungsi untuk menyimpan cache username dan password saat ingin mengupload ke github, fungsinya jika ingin mengupload kedua kalinya tidak akan diminta memasukkan password ataupun username lagi, ya! itu terjadi jika cache tersimpan dengan baik.&lt;/p&gt;
+&lt;p&gt;saya telah mencobanya dan berhasil, tetapi setelah saya keluar dari termux dan aplikasi sudah tidak berjalan dilatar belakang cache password dan username pun menghilang, singkatanya cache itu berfungsi ketika setelah kamu meng-upload file ke github dan akan menyimpan cache password ketika kamu tidak keluar atau menutup aplikasi termux&lt;/p&gt;
+&lt;p&gt;untuk file nya sudah saya buat sesimpel mungkin, jadi kamu bisa dengan mudah mengedit ataupun memahami isi script tersebut, bahasa script nya hanya menggunakan bash saja.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; Download : &lt;/b&gt; &lt;a &gt;Dalam perbaikan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Link dalam perbaikan&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data fix bug all hero mlbb lite</title>
       <link>https://rxl6.github.io/posts/data-fix-bug-all-hero-mlbb-lite-/</link>
       <pubDate>Sun, 04 Dec 2022 00:57:47 +0000</pubDate>
