@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on RXL6</title>
+    <link>https://rxl6.github.io/tags/</link>
+    <description>Recent content in Tags on RXL6</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>help.fo.rpl5@gmail.com (Irul)</managingEditor>
+    <webMaster>help.fo.rpl5@gmail.com (Irul)</webMaster>
+    <lastBuildDate>Mon, 05 Dec 2022 00:57:47 +0000</lastBuildDate><atom:link href="https://rxl6.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data</title>
+      <link>https://rxl6.github.io/tags/data/</link>
+      <pubDate>Mon, 05 Dec 2022 00:57:47 +0000</pubDate>
+      <author>help.fo.rpl5@gmail.com (Irul)</author>
+      <guid>https://rxl6.github.io/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data tambahan mlbb lite</title>
+      <link>https://rxl6.github.io/tags/data-tambahan-mlbb-lite/</link>
+      <pubDate>Mon, 05 Dec 2022 00:57:47 +0000</pubDate>
+      <author>help.fo.rpl5@gmail.com (Irul)</author>
+      <guid>https://rxl6.github.io/tags/data-tambahan-mlbb-lite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Script termux</title>
+      <link>https://rxl6.github.io/tags/script-termux/</link>
+      <pubDate>Mon, 05 Dec 2022 00:57:47 +0000</pubDate>
+      <author>help.fo.rpl5@gmail.com (Irul)</author>
+      <guid>https://rxl6.github.io/tags/script-termux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data mlbb lite</title>
+      <link>https://rxl6.github.io/tags/data-mlbb-lite/</link>
+      <pubDate>Fri, 02 Dec 2022 00:57:47 +0000</pubDate>
+      <author>help.fo.rpl5@gmail.com (Irul)</author>
+      <guid>https://rxl6.github.io/tags/data-mlbb-lite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data tambahan skin mlbb</title>
+      <link>https://rxl6.github.io/tags/data-tambahan-skin-mlbb/</link>
+      <pubDate>Fri, 02 Dec 2022 00:57:47 +0000</pubDate>
+      <author>help.fo.rpl5@gmail.com (Irul)</author>
+      <guid>https://rxl6.github.io/tags/data-tambahan-skin-mlbb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
