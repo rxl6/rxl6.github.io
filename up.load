@@ -1,6 +1,0 @@
-git add *
-git commit -m "update"
-
-git config --global credential.helper 'cache --timeout 86400000'
-
-git push -u origin pages
