@@ -1,53 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<sitemap>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://rxl6.github.io/gba/kumpulan-game-gba-terbaik/</loc>
      <lastmod>2022-12-19T00:57:47+00:00</lastmod>
 
-</sitemap>
- <sitemap>
+</url><url>
      <loc>https://rxl6.github.io/posts/data-fix-pasif-benedetta/</loc>
      <lastmod>2022-12-18T00:57:47+00:00</lastmod>
 
-</sitemap>
- <sitemap>
+</url><url>
      <loc>https://rxl6.github.io/posts/data-fix-skill1-franco/</loc>
      <lastmod>2022-12-17T00:57:47+00:00</lastmod>
 
-</sitemap>
- <sitemap>
+</url><url>
      <loc>https://rxl6.github.io/posts/cara-atasi-lag-mlbb/</loc>
      <lastmod>2022-12-05T00:57:47+00:00</lastmod>
 
-</sitemap>
- <sitemap>
+</url><url>
      <loc>https://rxl6.github.io/tips/script-uplad-github/</loc>
      <lastmod>2022-12-05T00:57:47+00:00</lastmod>
 
-</sitemap>
- <sitemap>
+</url><url>
      <loc>https://rxl6.github.io/posts/data-fix-bug-all-hero-mlbb-lite-/</loc>
      <lastmod>2022-12-04T00:57:47+00:00</lastmod>
 
-</sitemap>
- <sitemap>
+</url><url>
      <loc>https://rxl6.github.io/posts/data-fix-all-bug-mlbb-lite/</loc>
      <lastmod>2022-12-03T00:57:47+00:00</lastmod>
 
-</sitemap>
- <sitemap>
+</url><url>
      <loc>https://rxl6.github.io/posts/data-tambahan-skin-yin/</loc>
      <lastmod>2022-12-02T00:57:47+00:00</lastmod>
 
-</sitemap>
- <sitemap>
+</url><url>
      <loc>https://rxl6.github.io/posts/data-tambahan-skin-zhask/</loc>
      <lastmod>2022-11-03T00:57:47+00:00</lastmod>
 
-</sitemap>
- <sitemap>
+</url><url>
      <loc>https://rxl6.github.io/posts/data-tambahan-skin-zilong/</loc>
      <lastmod>2022-11-01T00:57:47+00:00</lastmod>
 
-</sitemap>
- </sitemapindex>
+</url></urlset>
